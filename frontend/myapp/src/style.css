@@ -1,0 +1,164 @@
+/* *{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.navbar-header{
+    width: 100%;
+    height: 50px;
+    padding: 15px 25px;
+    color: rgb(229, 238, 238);
+    display: flex;
+    align-items: center;
+    background: linear-gradient( 75deg,rgb(70, 70, 226),rgb(230, 74, 159), rgb(98, 98, 243));
+    justify-content: space-between;
+}
+
+.link{
+    color: azure;
+    text-decoration: none;
+    margin: 0px 10px;
+}
+
+.signup_container{
+     
+     justify-content: center;
+    align-items: center;
+    min-height: 70vh;
+    display: flex;
+}
+
+.signup_form button{
+    color: white;
+    
+}
+.signup{
+  background-color: rgb(115, 222, 236);
+  
+}
+
+.signup_btn{
+    color: azure;
+    margin-top: 2px;
+    background-color: rgb(68, 226, 121);
+}
+
+.signup{
+    
+    padding: 8px;
+    border-radius:8px;
+    border:3px solid
+} */
+
+.navbar-header{
+    width: 100vw;
+    height: 60px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(79deg,
+    rgb(132, 74, 226) ,rgb(219, 114, 114) , rgb(207, 47, 181));
+}
+
+.link{
+    color: white;
+    text-decoration: none;
+    margin: 0px 10px;
+}
+
+.signup_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 90vh;
+}
+
+.signup_form{
+    border: 1px solid gray;
+    padding: 20px;
+    border-radius: 10px;
+    width: 20%;
+}
+
+.signup_form form input{
+    padding: 8px;
+    border-radius: 5px;
+    margin-top: 2px;
+    width: 100%;
+    border: 1px solid rgb(216, 213, 213);
+}
+
+.signup_form form button{
+    width: 100%;
+    margin-top: 10px;
+    padding: 8px;
+    border-radius: 5px;
+    border: 2px solid rgb(13, 12, 12);
+    background-color: rgb(219, 195, 157);
+}
+
+.btn {
+text-decoration: none;
+}
+
+.btn_input{
+    background-color: transparent;
+    color: white;
+    font-weight: bolder;
+    font-size: 15px;
+    border: 1px solid white;
+    border-radius: 5px;
+    margin-right: 10px;
+
+    
+}
+
+.post_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+
+.post_form{
+    width: 50%;
+    border: 1px solid gray;
+    padding: 20px;
+}
+
+.post_form input, .post_form textarea, .post_form button{
+    width:100%;
+    margin:10px 0px;
+    padding: 8px;
+}
+
+.post_form .file{
+    border: 1px solid gray;
+}
+
+.post_form button{
+    cursor: pointer;
+    background-color: green;
+    color: white;
+}
+
+.post{
+    display: flex;
+    border: 2px solid gray;
+    margin: 30px;
+    padding: 5px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: black;
+}
+
+.post img {
+    height: 200px;
+}
+
+.post_text{
+    margin-left: 20px;
+}
